@@ -30,7 +30,20 @@
     }
 }
 
-
+.map-responsive{
+overflow:hidden;
+padding-bottom:56.25%;
+position:relative;
+height:0;
+}
+.map-responsive iframe{
+left:0;
+top:0;
+height:100%;
+width:100%;
+position:absolute;
+}
+/* Source: ostraining
     .con  {
 
     }
@@ -56,6 +69,15 @@
           
               <li class="hoho active"><a href="index.html">회사소개</a></li>
       <!--        <li><a href="#">Contact</a></li>-->
+ <li class="dropdown hoho">
+                <a href="sell.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">구매하기 <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+			  <li class="dropdown-header">행성</li>
+			      <li><a href="sell.html#city">화성</a></li>
+			  <li><a href="sell.html#city2">토성</a></li>
+                  <li><a href="sell.html#city3">목성</a></li>
+                  <li><a href="sell.html#city4">태양</a></li>
+</ul></li>
               <li class="dropdown hoho">
                 <a href="company.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">사업영역 <span class="caret"></span></a>
                 <ul class="dropdown-menu">
@@ -177,8 +199,19 @@ transform: translateY(-50%);">
 
       <!-- Three columns of text below the carousel -->
     <div class="container marketing">
-<p style="margin-top:30px;margin-bottom:30px;">CEO 인사말</p>
-  <div style="text-align:center;">
+<div style="text-align:center;margin-top:30px;margin-bottom:30px;">
+<h4 style="border-bottom:1px solid #ccc;display:inline-block;padding:10px;">CEO 인사말</h4>
+
+<br><br><p>신이건 부처건 부엉이당 본좌를 방해시 용서치 않는다</p>
+</div><br><br>
+  <div style="text-align:center;margin-top:30px;margin-bottom:30px;">
+<h4 style="border-bottom:1px solid #ccc;display:inline-block;padding:10px;">찾아오시는길</h4>
+</div><br><br>
+<div class="map-responsive">
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d311111111111111165.1062622773675!2d127.00489301541758!3d37.50541183538383!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca17ca5bcbcc5%3A0xe21243e195c38f39!2z7ISc7Jq46rOg7IaN67KE7Iqk7YSw66-464SQ!5e0!3m2!1sko!2skr!4v1592817756049!5m2!1sko!2skr" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+</div>
+<p>적경 3h 27m 29s | 적위 +17° 9′ 7″</p>
+  <div style="text-align:center;margin-top:30px;margin-bottom:30px;">
 <h4 style="border-bottom:1px solid #ccc;display:inline-block;padding:10px;">이사회</h4>
 </div><br><br>
       <div class="row">
